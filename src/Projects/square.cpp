@@ -2,11 +2,12 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
+#include <unordered_map>
 
 // Constants for window dimensions and maximum points for the outer circle
 const int WINDOW_WIDTH = 1600;
 const int WINDOW_HEIGHT = 600;
-const int MAX_POINTS = 2000;
+const int MAX_POINTS = 5000;
 const int MAX_DEPTH = 10;
 const int NUMBERS_OF_CIRCLE = 2;
 const float RADIUS = 100.0f;
@@ -15,6 +16,19 @@ std::pair<float, float> outerPointsArray[MAX_POINTS];
 int outerPointsCount = 0;
 
 std::vector<std::pair<float, float>> outerPoints;
+
+// Cache for precomputed circle points
+std::unordered_map<int, std::pair<float, float>> circlePointsCache;
+
+void computeCirclePoints()
+{
+    const int CIRCLE_POINTS = 360;
+    for (int j = 0; j < CIRCLE_POINTS; ++j)
+    {
+        float angle = j * (3.14159f / 180.0f);
+        circlePointsCache[j] = {std::cos(angle), std::sin(angle)};
+    }
+}
 
 void drawCircle(float centerX, float centerY, float radius, float speed, int loop, GLfloat size, int depth = 0)
 {
@@ -39,28 +53,15 @@ void drawCircle(float centerX, float centerY, float radius, float speed, int loo
     glVertex2f(800, WINDOW_HEIGHT - 50);
     glEnd();
 
-    const int CIRCLE_POINTS = 360; // Number of points to define a circle
-    static std::pair<float, float> circlePoints[CIRCLE_POINTS];
-
-    // Precompute circle points if not already done
-    static bool pointsComputed = false;
-    if (!pointsComputed)
-    {
-        for (int j = 0; j < CIRCLE_POINTS; ++j)
-        {
-            float angle = j * (3.14159f / 180.0f);
-            circlePoints[j] = {std::cos(angle), std::sin(angle)};
-        }
-        pointsComputed = true;
-    }
+    const int CIRCLE_POINTS = 360;
 
     // Draw the main circle with small points
     glPointSize(1);
     glBegin(GL_POINTS);
     for (int j = 0; j < CIRCLE_POINTS; ++j)
     {
-        float x = centerX + radius * circlePoints[j].first;
-        float y = centerY + radius * circlePoints[j].second;
+        float x = centerX + radius * circlePointsCache[j].first;
+        float y = centerY + radius * circlePointsCache[j].second;
         glVertex2f(x, y);
     }
     glEnd();
@@ -74,8 +75,8 @@ void drawCircle(float centerX, float centerY, float radius, float speed, int loo
     glBegin(GL_POINTS);
     for (int j = starting_index; j < static_cast<int>(i[depth]); j++)
     {
-        float x = centerX + radius * circlePoints[j % CIRCLE_POINTS].first;
-        float y = centerY + radius * circlePoints[j % CIRCLE_POINTS].second;
+        float x = centerX + radius * circlePointsCache[j % CIRCLE_POINTS].first;
+        float y = centerY + radius * circlePointsCache[j % CIRCLE_POINTS].second;
         glVertex2f(x, y);
     }
     i[depth] += (2.0f / speed);
@@ -83,8 +84,8 @@ void drawCircle(float centerX, float centerY, float radius, float speed, int loo
 
     // Draw a line from the center to the moving point
     glBegin(GL_LINES);
-    float lineX = centerX + radius * circlePoints[second_circle].first;
-    float lineY = centerY + radius * circlePoints[second_circle].second;
+    float lineX = centerX + radius * circlePointsCache[second_circle].first;
+    float lineY = centerY + radius * circlePointsCache[second_circle].second;
     glVertex2f(centerX, centerY);
     glVertex2f(lineX, lineY);
     glEnd();
@@ -98,8 +99,6 @@ void drawCircle(float centerX, float centerY, float radius, float speed, int loo
     // Track the outer points and animate them across the screen
     if (loop == 0)
     {
-        // std::cout << "The length of outerPoints is: " << outerPoints.size() << std::endl;
-
         if (outerPoints.size() >= MAX_POINTS)
         {
             outerPoints.pop_back();
@@ -153,6 +152,9 @@ int main()
     // Set the key callback
     glfwSetKeyCallback(window, keyCallback);
 
+    // Precompute circle points
+    computeCirclePoints();
+
     // Main loop to render the animation
     while (!glfwWindowShouldClose(window))
     {
@@ -172,10 +174,9 @@ int main()
         glLoadIdentity();
 
         // Draw circle frame by frame
-        float radius = 100.0f;
         float centerX = WINDOW_WIDTH / 4.0f;
         float centerY = WINDOW_HEIGHT / 2.0f;
-        drawCircle(centerX, centerY, radius, radius, NUMBERS_OF_CIRCLE, 5);
+        drawCircle(centerX, centerY, RADIUS, RADIUS, NUMBERS_OF_CIRCLE, 5);
 
         // Swap front and back buffers
         glfwSwapBuffers(window);
