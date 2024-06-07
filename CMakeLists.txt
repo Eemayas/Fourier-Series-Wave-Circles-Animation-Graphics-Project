@@ -17,11 +17,11 @@ endif()
 
 # Source files
 set(SOURCES
-    src/main.cpp
-    src/draw.cpp
-    src/render.cpp
-    src/utils.cpp
-    src/constant.cpp
+    src/Fourier\ Seriess/main.cpp
+    src/Fourier\ Seriess/draw.cpp
+    src/Fourier\ Seriess/render.cpp
+    src/Fourier\ Seriess/utils.cpp
+    src/Fourier\ Seriess/constant.cpp
 )
 
 # Header files
@@ -29,6 +29,12 @@ set(HEADERS
     include/draw.h
     include/render.h
     include/utils.h
+)
+set(HEADERS1
+    include/draw.h
+    include/render.h
+    include/utils.h
+    include/constant.h
 )
 
 set(SRCS "src/Projects/square.cpp")

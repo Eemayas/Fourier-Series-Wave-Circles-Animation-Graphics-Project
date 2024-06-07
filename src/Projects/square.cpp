@@ -3,6 +3,10 @@
 #include <cmath>
 #include <vector>
 #include <unordered_map>
+#include <math.h>
+#include <cstdlib>
+
+#include <ctime>
 
 // Constants for window dimensions and maximum points for the outer circle
 const int WINDOW_WIDTH = 1600;
@@ -89,6 +93,7 @@ void computeCirclePoints()
 void drawAxisWithArrow(float x1, float y1, float x2, float y2)
 {
     // Draw the main line of the axis
+    glColor3f(0.0f, 1.0f, 0.0f);
     glBegin(GL_LINES);
     glVertex2f(x1, y1);
     glVertex2f(x2, y2);
@@ -102,6 +107,7 @@ void drawAxisWithArrow(float x1, float y1, float x2, float y2)
     float unitDy = dy / length;
 
     // Draw the arrowhead lines
+    glColor3f(0.0f, 1.0f, 0.0f);
     glBegin(GL_LINES);
     glVertex2f(x2, y2);
     glVertex2f(x2 - 10 * unitDx + 10 * unitDy, y2 - 10 * unitDy - 10 * unitDx);
@@ -131,6 +137,7 @@ void drawCirclesLoop(float centerX, float centerY, float radius, float speed, in
     }
 
     // Draw the circle using precomputed points
+    glColor3f(1.0f, 1.0f, 0.0f);
     glPointSize(1);
     glBegin(GL_POINTS);
     for (int j = 0; j < CIRCLE_POINTS; ++j)
@@ -229,6 +236,7 @@ void draw_square_wave(const std::vector<double> &data, float centerX, float cent
 {
     drawAxes(centerX, centerY / 2, WINDOW_WIDTH / 2, 150);
 
+    glColor3f(1.0f, 1.0f, 0.0f);
     glBegin(GL_LINE_STRIP);
     int num_points = data.size();
     for (int i = 0; i < MAX_POINTS; ++i)
@@ -264,7 +272,6 @@ void render(GLFWwindow *window, const std::vector<double> &squareWaveData)
     drawCirclesLoop(centerX, centerY, RADIUS, RADIUS, NUMBERS_OF_CIRCLE, 5);
 
     // Draw the Fourier series approximation of the square wave
-    glColor3f(0.0f, 1.0f, 0.0f);
     draw_square_wave(squareWaveData, MAIN_GRAPH_CENTER_X - 360, WINDOW_HEIGHT / 2);
 
     // Swap front and back buffers

@@ -1,11 +1,29 @@
 #include "draw.h"
 #include <GLFW/glfw3.h>
 #include <cmath>
-#include "constant.cpp"
+#include "constant.h"
+#include <iostream>
+
+// Draw the Fourier series approximation of the square wave
+void draw_square_wave(const std::vector<double> &data, float centerX, float centerY)
+{
+    drawAxes(centerX, centerY / 2, WINDOW_WIDTH / 2, 150);
+
+    glBegin(GL_LINE_STRIP);
+    int num_points = data.size();
+    for (int i = 0; i < MAX_POINTS; ++i)
+    {
+        double t = centerX + ((0.08 * i * 1.5) / (NUMBERS_OF_CIRCLE + 1));
+        glVertex2f(t, centerY / 2 + data[i * 720 / MAX_POINTS] * 100);
+    }
+    glEnd();
+}
+
 // Draw an axis with an arrowhead
 void drawAxisWithArrow(float x1, float y1, float x2, float y2)
 {
     // Draw the main line of the axis
+    glColor3f(0.0f, 1.0f, 0.0f);
     glBegin(GL_LINES);
     glVertex2f(x1, y1);
     glVertex2f(x2, y2);
@@ -19,6 +37,7 @@ void drawAxisWithArrow(float x1, float y1, float x2, float y2)
     float unitDy = dy / length;
 
     // Draw the arrowhead lines
+    glColor3f(0.0f, 1.0f, 0.0f);
     glBegin(GL_LINES);
     glVertex2f(x2, y2);
     glVertex2f(x2 - 10 * unitDx + 10 * unitDy, y2 - 10 * unitDy - 10 * unitDx);
@@ -48,6 +67,7 @@ void drawCirclesLoop(float centerX, float centerY, float radius, float speed, in
     }
 
     // Draw the circle using precomputed points
+    glColor3f(1.0f, 1.0f, 0.0f);
     glPointSize(1);
     glBegin(GL_POINTS);
     for (int j = 0; j < CIRCLE_POINTS; ++j)
@@ -117,19 +137,4 @@ void drawCirclesLoop(float centerX, float centerY, float radius, float speed, in
         }
         glEnd();
     }
-}
-
-// Draw the Fourier series approximation of the square wave
-void draw_square_wave(const std::vector<double> &data, float centerX, float centerY)
-{
-    drawAxes(centerX, centerY / 2, WINDOW_WIDTH / 2, 150);
-
-    glBegin(GL_LINE_STRIP);
-    int num_points = data.size();
-    for (int i = 0; i < MAX_POINTS; ++i)
-    {
-        double t = centerX + ((0.08 * i * 1.5) / (NUMBERS_OF_CIRCLE + 1));
-        glVertex2f(t, centerY / 2 + data[i * 720 / MAX_POINTS] * 100);
-    }
-    glEnd();
 }

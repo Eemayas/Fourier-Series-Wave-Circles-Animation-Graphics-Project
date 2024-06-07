@@ -1,5 +1,5 @@
 #include "utils.h"
-#include "constant.cpp"
+#include "constant.h"
 #include <cmath>
 
 std::vector<double> square_wave_fourier(int n_terms, int num_points)
@@ -19,6 +19,7 @@ std::vector<double> square_wave_fourier(int n_terms, int num_points)
 // Precompute points for a circle and cache them for quick access during rendering
 void computeCirclePoints()
 {
+    int CIRCLE_POINTS = 360;
     for (int j = 0; j < CIRCLE_POINTS; ++j)
     {
         float angle = j * (3.14159f / 180.0f);
