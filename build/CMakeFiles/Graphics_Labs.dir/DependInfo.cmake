@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/6th sem/Graphics Project/src/constant.cpp" "CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj.d"
-  "E:/6th sem/Graphics Project/src/draw.cpp" "CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj.d"
-  "E:/6th sem/Graphics Project/src/main.cpp" "CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj.d"
-  "E:/6th sem/Graphics Project/src/render.cpp" "CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj.d"
-  "E:/6th sem/Graphics Project/src/utils.cpp" "CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/Fourier Seriess/constant.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/Fourier Seriess/draw.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/Fourier Seriess/main.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/Fourier Seriess/render.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/Fourier Seriess/utils.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

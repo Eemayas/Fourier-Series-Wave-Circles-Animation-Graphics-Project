@@ -68,7 +68,18 @@ CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj: \
  C:/msys64/ucrt64/include/malloc.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
  C:/msys64/ucrt64/include/errno.h \
- E:\6th\ sem\Graphics\ Project\src\constant.cpp \
+ E:/6th\ sem/Graphics\ Project/include/constant.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/unordered_map \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/unordered_map.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable_policy.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/tuple \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/utility \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
@@ -139,13 +150,4 @@ CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/unordered_map \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/unordered_map.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable_policy.h \
- C:/msys64/ucrt64/include/c++/13.2.0/tuple \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc

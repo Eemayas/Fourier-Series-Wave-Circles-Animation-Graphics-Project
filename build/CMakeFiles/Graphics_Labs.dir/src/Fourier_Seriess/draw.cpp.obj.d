@@ -1,5 +1,5 @@
-CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: \
- E:\6th\ sem\Graphics\ Project\src\main.cpp \
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj: \
+ E:\6th\ sem\Graphics\ Project\src\Fourier\ Seriess\draw.cpp \
  E:/6th\ sem/Graphics\ Project/include/draw.h \
  C:/msys64/ucrt64/include/c++/13.2.0/vector \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
@@ -55,8 +55,31 @@ CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/GL/gl.h \
- E:/6th\ sem/Graphics\ Project/include/render.h \
- E:/6th\ sem/Graphics\ Project/include/utils.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cmath \
+ C:/msys64/ucrt64/include/math.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
+ C:/msys64/ucrt64/include/stdlib.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+ C:/msys64/ucrt64/include/limits.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/errno.h \
+ E:/6th\ sem/Graphics\ Project/include/constant.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/unordered_map \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/unordered_map.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable_policy.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/tuple \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/utility \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
@@ -66,7 +89,6 @@ CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/cwchar \
  C:/msys64/ucrt64/include/wchar.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
- C:/msys64/ucrt64/include/corecrt_wstdlib.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
  C:/msys64/ucrt64/include/swprintf.inl \
@@ -88,12 +110,10 @@ CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/atomicity.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/msys64/ucrt64/include/pthread.h C:/msys64/ucrt64/include/errno.h \
- C:/msys64/ucrt64/include/sys/types.h C:/msys64/ucrt64/include/process.h \
+ C:/msys64/ucrt64/include/pthread.h C:/msys64/ucrt64/include/sys/types.h \
+ C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
- C:/msys64/ucrt64/include/limits.h C:/msys64/ucrt64/include/signal.h \
+ C:/msys64/ucrt64/include/signal.h \
  C:/msys64/ucrt64/include/pthread_signal.h \
  C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
@@ -109,12 +129,6 @@ CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/string_conversions.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
- C:/msys64/ucrt64/include/stdlib.h \
- C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
- C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
- C:/msys64/ucrt64/include/malloc.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
  C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h \
@@ -136,16 +150,4 @@ CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/unordered_map \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/unordered_map.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable_policy.h \
- C:/msys64/ucrt64/include/c++/13.2.0/tuple \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
- E:/6th\ sem/Graphics\ Project/include/constant.h \
- C:/msys64/ucrt64/include/c++/13.2.0/utility \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc

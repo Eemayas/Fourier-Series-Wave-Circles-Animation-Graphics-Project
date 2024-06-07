@@ -1,5 +1,50 @@
-CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj: \
- E:\6th\ sem\Graphics\ Project\src\Projects\square.cpp \
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj: \
+ E:\6th\ sem\Graphics\ Project\src\Fourier\ Seriess\main.cpp \
+ E:/6th\ sem/Graphics\ Project/include/draw.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/vector \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/numeric_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_pair.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/type_traits \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/move.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/concept_check.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/debug/assertions.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/debug/debug.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/predefined_ops.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/new \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/alloc_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/refwrap.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/invoke.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  E:/6th\ sem/Graphics\ Project/lib/glfw-3.4/include/GLFW/glfw3.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
@@ -10,16 +55,13 @@ CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj: \
  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/GL/gl.h \
+ E:/6th\ sem/Graphics\ Project/include/render.h \
+ E:/6th\ sem/Graphics\ Project/include/utils.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
  C:/msys64/ucrt64/include/c++/13.2.0/iosfwd \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/postypes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cwchar \
  C:/msys64/ucrt64/include/wchar.h \
@@ -30,15 +72,9 @@ CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj: \
  C:/msys64/ucrt64/include/swprintf.inl \
  C:/msys64/ucrt64/include/sec_api/wchar_s.h \
  C:/msys64/ucrt64/include/c++/13.2.0/exception \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
  C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
- C:/msys64/ucrt64/include/c++/13.2.0/new \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/move.h \
- C:/msys64/ucrt64/include/c++/13.2.0/type_traits \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/nested_exception.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h \
@@ -68,36 +104,9 @@ CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/string \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/concept_check.h \
- C:/msys64/ucrt64/include/c++/13.2.0/debug/assertions.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h \
- C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/numeric_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_pair.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h \
- C:/msys64/ucrt64/include/c++/13.2.0/debug/debug.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/predefined_ops.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/refwrap.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/invoke.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h \
- C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/alloc_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/string_conversions.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
  C:/msys64/ucrt64/include/stdlib.h \
@@ -109,7 +118,6 @@ CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
  C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/system_error \
@@ -129,13 +137,6 @@ CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/cmath \
- C:/msys64/ucrt64/include/math.h \
- C:/msys64/ucrt64/include/c++/13.2.0/vector \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/unordered_map \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/unordered_map.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable.h \
@@ -145,5 +146,6 @@ CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
- C:/msys64/ucrt64/include/c++/13.2.0/math.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ctime
+ E:/6th\ sem/Graphics\ Project/include/constant.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/utility \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h

@@ -225,125 +225,125 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f lib\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make lib/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
-src/constant.obj: src/constant.cpp.obj
-.PHONY : src/constant.obj
+src/Fourier_Seriess/constant.obj: src/Fourier_Seriess/constant.cpp.obj
+.PHONY : src/Fourier_Seriess/constant.obj
 
 # target to build an object file
-src/constant.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj
-.PHONY : src/constant.cpp.obj
+src/Fourier_Seriess/constant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj
+.PHONY : src/Fourier_Seriess/constant.cpp.obj
 
-src/constant.i: src/constant.cpp.i
-.PHONY : src/constant.i
+src/Fourier_Seriess/constant.i: src/Fourier_Seriess/constant.cpp.i
+.PHONY : src/Fourier_Seriess/constant.i
 
 # target to preprocess a source file
-src/constant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/constant.cpp.i
-.PHONY : src/constant.cpp.i
+src/Fourier_Seriess/constant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.i
+.PHONY : src/Fourier_Seriess/constant.cpp.i
 
-src/constant.s: src/constant.cpp.s
-.PHONY : src/constant.s
+src/Fourier_Seriess/constant.s: src/Fourier_Seriess/constant.cpp.s
+.PHONY : src/Fourier_Seriess/constant.s
 
 # target to generate assembly for a file
-src/constant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/constant.cpp.s
-.PHONY : src/constant.cpp.s
+src/Fourier_Seriess/constant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.s
+.PHONY : src/Fourier_Seriess/constant.cpp.s
 
-src/draw.obj: src/draw.cpp.obj
-.PHONY : src/draw.obj
+src/Fourier_Seriess/draw.obj: src/Fourier_Seriess/draw.cpp.obj
+.PHONY : src/Fourier_Seriess/draw.obj
 
 # target to build an object file
-src/draw.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj
-.PHONY : src/draw.cpp.obj
+src/Fourier_Seriess/draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj
+.PHONY : src/Fourier_Seriess/draw.cpp.obj
 
-src/draw.i: src/draw.cpp.i
-.PHONY : src/draw.i
+src/Fourier_Seriess/draw.i: src/Fourier_Seriess/draw.cpp.i
+.PHONY : src/Fourier_Seriess/draw.i
 
 # target to preprocess a source file
-src/draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/draw.cpp.i
-.PHONY : src/draw.cpp.i
+src/Fourier_Seriess/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.i
+.PHONY : src/Fourier_Seriess/draw.cpp.i
 
-src/draw.s: src/draw.cpp.s
-.PHONY : src/draw.s
+src/Fourier_Seriess/draw.s: src/Fourier_Seriess/draw.cpp.s
+.PHONY : src/Fourier_Seriess/draw.s
 
 # target to generate assembly for a file
-src/draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/draw.cpp.s
-.PHONY : src/draw.cpp.s
+src/Fourier_Seriess/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.s
+.PHONY : src/Fourier_Seriess/draw.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/Fourier_Seriess/main.obj: src/Fourier_Seriess/main.cpp.obj
+.PHONY : src/Fourier_Seriess/main.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/Fourier_Seriess/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj
+.PHONY : src/Fourier_Seriess/main.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/Fourier_Seriess/main.i: src/Fourier_Seriess/main.cpp.i
+.PHONY : src/Fourier_Seriess/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Fourier_Seriess/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.i
+.PHONY : src/Fourier_Seriess/main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/Fourier_Seriess/main.s: src/Fourier_Seriess/main.cpp.s
+.PHONY : src/Fourier_Seriess/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Fourier_Seriess/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.s
+.PHONY : src/Fourier_Seriess/main.cpp.s
 
-src/render.obj: src/render.cpp.obj
-.PHONY : src/render.obj
+src/Fourier_Seriess/render.obj: src/Fourier_Seriess/render.cpp.obj
+.PHONY : src/Fourier_Seriess/render.obj
 
 # target to build an object file
-src/render.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj
-.PHONY : src/render.cpp.obj
+src/Fourier_Seriess/render.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj
+.PHONY : src/Fourier_Seriess/render.cpp.obj
 
-src/render.i: src/render.cpp.i
-.PHONY : src/render.i
+src/Fourier_Seriess/render.i: src/Fourier_Seriess/render.cpp.i
+.PHONY : src/Fourier_Seriess/render.i
 
 # target to preprocess a source file
-src/render.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/render.cpp.i
-.PHONY : src/render.cpp.i
+src/Fourier_Seriess/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.i
+.PHONY : src/Fourier_Seriess/render.cpp.i
 
-src/render.s: src/render.cpp.s
-.PHONY : src/render.s
+src/Fourier_Seriess/render.s: src/Fourier_Seriess/render.cpp.s
+.PHONY : src/Fourier_Seriess/render.s
 
 # target to generate assembly for a file
-src/render.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/render.cpp.s
-.PHONY : src/render.cpp.s
+src/Fourier_Seriess/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.s
+.PHONY : src/Fourier_Seriess/render.cpp.s
 
-src/utils.obj: src/utils.cpp.obj
-.PHONY : src/utils.obj
+src/Fourier_Seriess/utils.obj: src/Fourier_Seriess/utils.cpp.obj
+.PHONY : src/Fourier_Seriess/utils.obj
 
 # target to build an object file
-src/utils.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj
-.PHONY : src/utils.cpp.obj
+src/Fourier_Seriess/utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj
+.PHONY : src/Fourier_Seriess/utils.cpp.obj
 
-src/utils.i: src/utils.cpp.i
-.PHONY : src/utils.i
+src/Fourier_Seriess/utils.i: src/Fourier_Seriess/utils.cpp.i
+.PHONY : src/Fourier_Seriess/utils.i
 
 # target to preprocess a source file
-src/utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/utils.cpp.i
-.PHONY : src/utils.cpp.i
+src/Fourier_Seriess/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.i
+.PHONY : src/Fourier_Seriess/utils.cpp.i
 
-src/utils.s: src/utils.cpp.s
-.PHONY : src/utils.s
+src/Fourier_Seriess/utils.s: src/Fourier_Seriess/utils.cpp.s
+.PHONY : src/Fourier_Seriess/utils.s
 
 # target to generate assembly for a file
-src/utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/utils.cpp.s
-.PHONY : src/utils.cpp.s
+src/Fourier_Seriess/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.s
+.PHONY : src/Fourier_Seriess/utils.cpp.s
 
 # Help Target
 help:
@@ -362,21 +362,21 @@ help:
 	@echo ... Graphics_Labs
 	@echo ... glad
 	@echo ... glfw
-	@echo ... src/constant.obj
-	@echo ... src/constant.i
-	@echo ... src/constant.s
-	@echo ... src/draw.obj
-	@echo ... src/draw.i
-	@echo ... src/draw.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
-	@echo ... src/render.obj
-	@echo ... src/render.i
-	@echo ... src/render.s
-	@echo ... src/utils.obj
-	@echo ... src/utils.i
-	@echo ... src/utils.s
+	@echo ... src/Fourier_Seriess/constant.obj
+	@echo ... src/Fourier_Seriess/constant.i
+	@echo ... src/Fourier_Seriess/constant.s
+	@echo ... src/Fourier_Seriess/draw.obj
+	@echo ... src/Fourier_Seriess/draw.i
+	@echo ... src/Fourier_Seriess/draw.s
+	@echo ... src/Fourier_Seriess/main.obj
+	@echo ... src/Fourier_Seriess/main.i
+	@echo ... src/Fourier_Seriess/main.s
+	@echo ... src/Fourier_Seriess/render.obj
+	@echo ... src/Fourier_Seriess/render.i
+	@echo ... src/Fourier_Seriess/render.s
+	@echo ... src/Fourier_Seriess/utils.obj
+	@echo ... src/Fourier_Seriess/utils.i
+	@echo ... src/Fourier_Seriess/utils.s
 .PHONY : help
 
 

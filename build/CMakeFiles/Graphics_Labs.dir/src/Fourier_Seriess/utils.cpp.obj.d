@@ -1,6 +1,6 @@
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: \
- E:\6th\ sem\Graphics\ Project\src\constant.cpp \
- E:/6th\ sem/Graphics\ Project/include/constant.h \
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj: \
+ E:\6th\ sem\Graphics\ Project\src\Fourier\ Seriess\utils.cpp \
+ E:/6th\ sem/Graphics\ Project/include/utils.h \
  C:/msys64/ucrt64/include/c++/13.2.0/vector \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -45,6 +45,7 @@ CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
+ E:/6th\ sem/Graphics\ Project/include/constant.h \
  C:/msys64/ucrt64/include/c++/13.2.0/unordered_map \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/unordered_map.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable.h \
@@ -55,4 +56,22 @@ CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
  C:/msys64/ucrt64/include/c++/13.2.0/utility \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cmath \
+ C:/msys64/ucrt64/include/math.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
+ C:/msys64/ucrt64/include/stdlib.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+ C:/msys64/ucrt64/include/limits.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/errno.h

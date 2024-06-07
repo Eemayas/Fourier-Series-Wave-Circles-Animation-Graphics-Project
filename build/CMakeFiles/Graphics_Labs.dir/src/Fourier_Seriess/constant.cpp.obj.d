@@ -1,5 +1,5 @@
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: \
- E:\6th\ sem\Graphics\ Project\src\constant.cpp \
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj: \
+ E:\6th\ sem\Graphics\ Project\src\Fourier\ Seriess\constant.cpp \
  E:/6th\ sem/Graphics\ Project/include/constant.h \
  C:/msys64/ucrt64/include/c++/13.2.0/vector \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \

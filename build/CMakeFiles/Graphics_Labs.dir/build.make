@@ -68,97 +68,97 @@ include CMakeFiles/Graphics_Labs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Graphics_Labs.dir/flags.make
 
-CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
-CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
-CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: E:/6th\ sem/Graphics\ Project/src/main.cpp
-CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\main.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\main.cpp.obj -c "E:\6th sem\Graphics Project\src\main.cpp"
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj: E:/6th\ sem/Graphics\ Project/src/Fourier\ Seriess/main.cpp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\main.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\main.cpp.obj -c "E:\6th sem\Graphics Project\src\Fourier Seriess\main.cpp"
 
-CMakeFiles/Graphics_Labs.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\main.cpp" > CMakeFiles\Graphics_Labs.dir\src\main.cpp.i
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\Fourier Seriess\main.cpp" > CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\main.cpp.i
 
-CMakeFiles/Graphics_Labs.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\main.cpp" -o CMakeFiles\Graphics_Labs.dir\src\main.cpp.s
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\Fourier Seriess\main.cpp" -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\main.cpp.s
 
-CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
-CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
-CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj: E:/6th\ sem/Graphics\ Project/src/draw.cpp
-CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\draw.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\draw.cpp.obj -c "E:\6th sem\Graphics Project\src\draw.cpp"
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj: E:/6th\ sem/Graphics\ Project/src/Fourier\ Seriess/draw.cpp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\draw.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\draw.cpp.obj -c "E:\6th sem\Graphics Project\src\Fourier Seriess\draw.cpp"
 
-CMakeFiles/Graphics_Labs.dir/src/draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/draw.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\draw.cpp" > CMakeFiles\Graphics_Labs.dir\src\draw.cpp.i
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\Fourier Seriess\draw.cpp" > CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\draw.cpp.i
 
-CMakeFiles/Graphics_Labs.dir/src/draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/draw.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\draw.cpp" -o CMakeFiles\Graphics_Labs.dir\src\draw.cpp.s
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\Fourier Seriess\draw.cpp" -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\draw.cpp.s
 
-CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
-CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
-CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj: E:/6th\ sem/Graphics\ Project/src/render.cpp
-CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\render.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\render.cpp.obj -c "E:\6th sem\Graphics Project\src\render.cpp"
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj: E:/6th\ sem/Graphics\ Project/src/Fourier\ Seriess/render.cpp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\render.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\render.cpp.obj -c "E:\6th sem\Graphics Project\src\Fourier Seriess\render.cpp"
 
-CMakeFiles/Graphics_Labs.dir/src/render.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/render.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\render.cpp" > CMakeFiles\Graphics_Labs.dir\src\render.cpp.i
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\Fourier Seriess\render.cpp" > CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\render.cpp.i
 
-CMakeFiles/Graphics_Labs.dir/src/render.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/render.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\render.cpp" -o CMakeFiles\Graphics_Labs.dir\src\render.cpp.s
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\Fourier Seriess\render.cpp" -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\render.cpp.s
 
-CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
-CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
-CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj: E:/6th\ sem/Graphics\ Project/src/utils.cpp
-CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\utils.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\utils.cpp.obj -c "E:\6th sem\Graphics Project\src\utils.cpp"
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj: E:/6th\ sem/Graphics\ Project/src/Fourier\ Seriess/utils.cpp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\utils.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\utils.cpp.obj -c "E:\6th sem\Graphics Project\src\Fourier Seriess\utils.cpp"
 
-CMakeFiles/Graphics_Labs.dir/src/utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/utils.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\utils.cpp" > CMakeFiles\Graphics_Labs.dir\src\utils.cpp.i
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\Fourier Seriess\utils.cpp" > CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\utils.cpp.i
 
-CMakeFiles/Graphics_Labs.dir/src/utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/utils.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\utils.cpp" -o CMakeFiles\Graphics_Labs.dir\src\utils.cpp.s
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\Fourier Seriess\utils.cpp" -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\utils.cpp.s
 
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: E:/6th\ sem/Graphics\ Project/src/constant.cpp
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\constant.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\constant.cpp.obj -c "E:\6th sem\Graphics Project\src\constant.cpp"
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj: CMakeFiles/Graphics_Labs.dir/flags.make
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj: CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj: E:/6th\ sem/Graphics\ Project/src/Fourier\ Seriess/constant.cpp
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj: CMakeFiles/Graphics_Labs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\6th sem\Graphics Project\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj -MF CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\constant.cpp.obj.d -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\constant.cpp.obj -c "E:\6th sem\Graphics Project\src\Fourier Seriess\constant.cpp"
 
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/constant.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\constant.cpp" > CMakeFiles\Graphics_Labs.dir\src\constant.cpp.i
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\6th sem\Graphics Project\src\Fourier Seriess\constant.cpp" > CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\constant.cpp.i
 
-CMakeFiles/Graphics_Labs.dir/src/constant.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/constant.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\constant.cpp" -o CMakeFiles\Graphics_Labs.dir\src\constant.cpp.s
+CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\6th sem\Graphics Project\src\Fourier Seriess\constant.cpp" -o CMakeFiles\Graphics_Labs.dir\src\Fourier_Seriess\constant.cpp.s
 
 # Object files for target Graphics_Labs
 Graphics_Labs_OBJECTS = \
-"CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj" \
-"CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj" \
-"CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj" \
-"CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj" \
-"CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj"
+"CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj" \
+"CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj" \
+"CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj" \
+"CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj" \
+"CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj"
 
 # External object files for target Graphics_Labs
 Graphics_Labs_EXTERNAL_OBJECTS =
 
-Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj
-Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj
-Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj
-Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj
-Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj
+Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj
+Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj
+Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj
+Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj
+Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj
 Graphics_Labs.exe: CMakeFiles/Graphics_Labs.dir/build.make
 Graphics_Labs.exe: lib/glfw-3.4/src/libglfw3.a
 Graphics_Labs.exe: lib/glad/libglad.a
