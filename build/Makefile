@@ -225,29 +225,125 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f lib\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make lib/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
-src/Projects/square.obj: src/Projects/square.cpp.obj
-.PHONY : src/Projects/square.obj
+src/constant.obj: src/constant.cpp.obj
+.PHONY : src/constant.obj
 
 # target to build an object file
-src/Projects/square.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj
-.PHONY : src/Projects/square.cpp.obj
+src/constant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj
+.PHONY : src/constant.cpp.obj
 
-src/Projects/square.i: src/Projects/square.cpp.i
-.PHONY : src/Projects/square.i
+src/constant.i: src/constant.cpp.i
+.PHONY : src/constant.i
 
 # target to preprocess a source file
-src/Projects/square.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.i
-.PHONY : src/Projects/square.cpp.i
+src/constant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/constant.cpp.i
+.PHONY : src/constant.cpp.i
 
-src/Projects/square.s: src/Projects/square.cpp.s
-.PHONY : src/Projects/square.s
+src/constant.s: src/constant.cpp.s
+.PHONY : src/constant.s
 
 # target to generate assembly for a file
-src/Projects/square.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.s
-.PHONY : src/Projects/square.cpp.s
+src/constant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/constant.cpp.s
+.PHONY : src/constant.cpp.s
+
+src/draw.obj: src/draw.cpp.obj
+.PHONY : src/draw.obj
+
+# target to build an object file
+src/draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj
+.PHONY : src/draw.cpp.obj
+
+src/draw.i: src/draw.cpp.i
+.PHONY : src/draw.i
+
+# target to preprocess a source file
+src/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/draw.cpp.i
+.PHONY : src/draw.cpp.i
+
+src/draw.s: src/draw.cpp.s
+.PHONY : src/draw.s
+
+# target to generate assembly for a file
+src/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/draw.cpp.s
+.PHONY : src/draw.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/render.obj: src/render.cpp.obj
+.PHONY : src/render.obj
+
+# target to build an object file
+src/render.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj
+.PHONY : src/render.cpp.obj
+
+src/render.i: src/render.cpp.i
+.PHONY : src/render.i
+
+# target to preprocess a source file
+src/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/render.cpp.i
+.PHONY : src/render.cpp.i
+
+src/render.s: src/render.cpp.s
+.PHONY : src/render.s
+
+# target to generate assembly for a file
+src/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/render.cpp.s
+.PHONY : src/render.cpp.s
+
+src/utils.obj: src/utils.cpp.obj
+.PHONY : src/utils.obj
+
+# target to build an object file
+src/utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj
+.PHONY : src/utils.cpp.obj
+
+src/utils.i: src/utils.cpp.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphics_Labs.dir\build.make CMakeFiles/Graphics_Labs.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
 
 # Help Target
 help:
@@ -266,9 +362,21 @@ help:
 	@echo ... Graphics_Labs
 	@echo ... glad
 	@echo ... glfw
-	@echo ... src/Projects/square.obj
-	@echo ... src/Projects/square.i
-	@echo ... src/Projects/square.s
+	@echo ... src/constant.obj
+	@echo ... src/constant.i
+	@echo ... src/constant.s
+	@echo ... src/draw.obj
+	@echo ... src/draw.i
+	@echo ... src/draw.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/render.obj
+	@echo ... src/render.i
+	@echo ... src/render.s
+	@echo ... src/utils.obj
+	@echo ... src/utils.i
+	@echo ... src/utils.s
 .PHONY : help
 
 

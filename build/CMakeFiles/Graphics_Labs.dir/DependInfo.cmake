@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/6th sem/Graphics Project/src/Projects/square.cpp" "CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/constant.cpp" "CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/draw.cpp" "CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/main.cpp" "CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/render.cpp" "CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj.d"
+  "E:/6th sem/Graphics Project/src/utils.cpp" "CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

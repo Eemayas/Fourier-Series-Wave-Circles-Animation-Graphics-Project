@@ -1,9 +1,33 @@
 [
 {
   "directory": "E:/6th sem/Graphics Project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\Projects\\square.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Projects\\square.cpp\"",
-  "file": "E:/6th sem/Graphics Project/src/Projects/square.cpp",
-  "output": "CMakeFiles/Graphics_Labs.dir/src/Projects/square.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\main.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\main.cpp\"",
+  "file": "E:/6th sem/Graphics Project/src/main.cpp",
+  "output": "CMakeFiles/Graphics_Labs.dir/src/main.cpp.obj"
+},
+{
+  "directory": "E:/6th sem/Graphics Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\draw.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\draw.cpp\"",
+  "file": "E:/6th sem/Graphics Project/src/draw.cpp",
+  "output": "CMakeFiles/Graphics_Labs.dir/src/draw.cpp.obj"
+},
+{
+  "directory": "E:/6th sem/Graphics Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\render.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\render.cpp\"",
+  "file": "E:/6th sem/Graphics Project/src/render.cpp",
+  "output": "CMakeFiles/Graphics_Labs.dir/src/render.cpp.obj"
+},
+{
+  "directory": "E:/6th sem/Graphics Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\utils.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\utils.cpp\"",
+  "file": "E:/6th sem/Graphics Project/src/utils.cpp",
+  "output": "CMakeFiles/Graphics_Labs.dir/src/utils.cpp.obj"
+},
+{
+  "directory": "E:/6th sem/Graphics Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\constant.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\constant.cpp\"",
+  "file": "E:/6th sem/Graphics Project/src/constant.cpp",
+  "output": "CMakeFiles/Graphics_Labs.dir/src/constant.cpp.obj"
 },
 {
   "directory": "E:/6th sem/Graphics Project/build/lib/glad",

@@ -14,10 +14,28 @@ if (NOT DEFINED CMAKE_BUILD_TYPE)
 endif()
 
 # create a list to keep source files in a place
-set(SRCS "src/Projects/square.cpp")
-# set(SRCS "src/Projects/square_b.cpp")
 
-add_executable(${PROJECT_NAME} ${SRCS})
+# Source files
+set(SOURCES
+    src/main.cpp
+    src/draw.cpp
+    src/render.cpp
+    src/utils.cpp
+    src/constant.cpp
+)
+
+# Header files
+set(HEADERS
+    include/draw.h
+    include/render.h
+    include/utils.h
+)
+
+set(SRCS "src/Projects/square.cpp")
+# Executable
+# add_executable(${PROJECT_NAME} ${SRCS})
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+
 
 find_package(OpenGL REQUIRED)
 

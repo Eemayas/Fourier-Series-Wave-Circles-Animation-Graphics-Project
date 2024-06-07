@@ -307,6 +307,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+CircleAnimationProject_BINARY_DIR:STATIC=E:/6th sem/Graphics Project/build
+
+//Value Computed by CMake
+CircleAnimationProject_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+CircleAnimationProject_SOURCE_DIR:STATIC=E:/6th sem/Graphics Project
+
 //Doxygen documentation generation tool (https://www.doxygen.nl)
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
