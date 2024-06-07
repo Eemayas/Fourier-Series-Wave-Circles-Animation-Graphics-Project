@@ -96,7 +96,7 @@ void drawCirclesLoop(float centerX, float centerY, float radius, float speed, in
     i[depth] += (3.0f / speed);
     glEnd();
 
-    // Draw the connecting line from the center of the circle to the moving point
+    // Draw the connecting line from the center of the circle to the moving point (radius)
     glBegin(GL_LINES);
     float lineX = centerX + radius * circlePointsCache[second_circle].first;
     float lineY = centerY + radius * circlePointsCache[second_circle].second;
@@ -110,7 +110,7 @@ void drawCirclesLoop(float centerX, float centerY, float radius, float speed, in
         drawCirclesLoop(lineX, lineY, RADIUS / (1 + (depth + 1) * 2), RADIUS / ((1 + (depth + 1) * 2)), loop - 1, 5, depth + 1);
     }
 
-    // Store points for drawing the final path
+    // Store points for drawing the final path (Last Circle)
     if (loop == 0)
     {
         if (outerPoints.size() >= MAX_POINTS)
