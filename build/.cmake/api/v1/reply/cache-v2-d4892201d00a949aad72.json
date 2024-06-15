@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/msys64/ucrt64/bin/g++.exe"
 		},
 		{
@@ -311,10 +311,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/msys64/ucrt64/bin/gcc.exe"
 		},
 		{
@@ -887,7 +887,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Graphics_Labs"
+			"value" : "C:/Program Files (x86)/Graphics_Project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1822,42 +1822,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "Graphics_Labs_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "E:/6th sem/Graphics Project/build"
-		},
-		{
-			"name" : "Graphics_Labs_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Graphics_Labs_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "E:/6th sem/Graphics Project"
-		},
-		{
 			"name" : "Graphics_Project_BINARY_DIR",
 			"properties" : 
 			[
@@ -1959,7 +1923,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files (x86)/Graphics_Labs"
+			"value" : "C:/Program Files (x86)/Graphics_Project"
 		},
 		{
 			"name" : "glad_BINARY_DIR",

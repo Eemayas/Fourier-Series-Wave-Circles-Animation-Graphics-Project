@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # set the project name
-project("Graphics_Labs" VERSION 0.1 LANGUAGES CXX C)
+project("Graphics_Project" VERSION 0.1 LANGUAGES CXX C)
 
 message(STATUS "The build type is set as ${CMAKE_BUILD_TYPE}.")
 # set build type as debug
@@ -19,7 +19,6 @@ endif()
 set(SOURCES
     src/Fourier\ Seriess/main.cpp
     src/Fourier\ Seriess/draw.cpp
-    src/Fourier\ Seriess/render.cpp
     src/Fourier\ Seriess/utils.cpp
     src/Fourier\ Seriess/constant.cpp
 )
@@ -27,20 +26,16 @@ set(SOURCES
 # Header files
 set(HEADERS
     include/draw.h
-    include/render.h
     include/utils.h
-)
-set(HEADERS1
-    include/draw.h
-    include/render.h
-    include/utils.h
-    include/constant.h
 )
 
-set(SRCS "src/Projects/square.cpp")
+
+
+
+
 # Executable
-# add_executable(${PROJECT_NAME} ${SRCS})
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+
 
 
 find_package(OpenGL REQUIRED)
