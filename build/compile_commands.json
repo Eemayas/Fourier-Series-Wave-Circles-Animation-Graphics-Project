@@ -1,33 +1,27 @@
 [
 {
   "directory": "E:/6th sem/Graphics Project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\Fourier_Seriess\\main.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\main.cpp\"",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Project.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Project.dir\\src\\Fourier_Seriess\\main.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\main.cpp\"",
   "file": "E:/6th sem/Graphics Project/src/Fourier Seriess/main.cpp",
-  "output": "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj"
+  "output": "CMakeFiles/Graphics_Project.dir/src/Fourier_Seriess/main.cpp.obj"
 },
 {
   "directory": "E:/6th sem/Graphics Project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\Fourier_Seriess\\draw.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\draw.cpp\"",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Project.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Project.dir\\src\\Fourier_Seriess\\draw.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\draw.cpp\"",
   "file": "E:/6th sem/Graphics Project/src/Fourier Seriess/draw.cpp",
-  "output": "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj"
+  "output": "CMakeFiles/Graphics_Project.dir/src/Fourier_Seriess/draw.cpp.obj"
 },
 {
   "directory": "E:/6th sem/Graphics Project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\Fourier_Seriess\\render.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\render.cpp\"",
-  "file": "E:/6th sem/Graphics Project/src/Fourier Seriess/render.cpp",
-  "output": "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj"
-},
-{
-  "directory": "E:/6th sem/Graphics Project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\Fourier_Seriess\\utils.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\utils.cpp\"",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Project.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Project.dir\\src\\Fourier_Seriess\\utils.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\utils.cpp\"",
   "file": "E:/6th sem/Graphics Project/src/Fourier Seriess/utils.cpp",
-  "output": "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj"
+  "output": "CMakeFiles/Graphics_Project.dir/src/Fourier_Seriess/utils.cpp.obj"
 },
 {
   "directory": "E:/6th sem/Graphics Project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Labs.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Labs.dir\\src\\Fourier_Seriess\\constant.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\constant.cpp\"",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Graphics_Project.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Graphics_Project.dir\\src\\Fourier_Seriess\\constant.cpp.obj -c \"E:\\6th sem\\Graphics Project\\src\\Fourier Seriess\\constant.cpp\"",
   "file": "E:/6th sem/Graphics Project/src/Fourier Seriess/constant.cpp",
-  "output": "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj"
+  "output": "CMakeFiles/Graphics_Project.dir/src/Fourier_Seriess/constant.cpp.obj"
 },
 {
   "directory": "E:/6th sem/Graphics Project/build/lib/glad",

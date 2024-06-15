@@ -1,4 +1,4 @@
-E:/6th sem/Graphics Project/build/CMakeFiles/Graphics_Labs.dir
+E:/6th sem/Graphics Project/build/CMakeFiles/Graphics_Project.dir
 E:/6th sem/Graphics Project/build/CMakeFiles/edit_cache.dir
 E:/6th sem/Graphics Project/build/CMakeFiles/rebuild_cache.dir
 E:/6th sem/Graphics Project/build/CMakeFiles/list_install_components.dir
