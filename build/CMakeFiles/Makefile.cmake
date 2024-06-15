@@ -80,7 +80,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Graphics_Labs.dir/DependInfo.cmake"
+  "CMakeFiles/Graphics_Project.dir/DependInfo.cmake"
   "lib/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "lib/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "lib/glfw-3.4/src/CMakeFiles/glfw.dir/DependInfo.cmake"

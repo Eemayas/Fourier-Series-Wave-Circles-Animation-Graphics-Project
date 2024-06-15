@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/6th sem/Graphics Project/src/Fourier Seriess/constant.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/constant.cpp.obj.d"
   "E:/6th sem/Graphics Project/src/Fourier Seriess/draw.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj.d"
   "E:/6th sem/Graphics Project/src/Fourier Seriess/main.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj.d"
-  "E:/6th sem/Graphics Project/src/Fourier Seriess/render.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj.d"
   "E:/6th sem/Graphics Project/src/Fourier Seriess/utils.cpp" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj" "gcc" "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj.d"
   )
 

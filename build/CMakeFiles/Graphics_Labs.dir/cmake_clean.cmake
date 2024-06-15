@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/draw.cpp.obj.d"
   "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj"
   "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/main.cpp.obj.d"
-  "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj"
-  "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/render.cpp.obj.d"
   "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj"
   "CMakeFiles/Graphics_Labs.dir/src/Fourier_Seriess/utils.cpp.obj.d"
   "Graphics_Labs.exe"
