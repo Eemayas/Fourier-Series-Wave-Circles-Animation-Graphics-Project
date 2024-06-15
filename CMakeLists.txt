@@ -19,28 +19,40 @@ endif()
 set(SOURCES
     src/Fourier\ Seriess/main.cpp
     src/Fourier\ Seriess/draw.cpp
-    src/Fourier\ Seriess/render.cpp
     src/Fourier\ Seriess/utils.cpp
     src/Fourier\ Seriess/constant.cpp
+)
+# Source files
+set(SOURCES1
+    Code/src/main.cpp
+    Code/src/draw.cpp
+    Code/src/utils.cpp
+    Code/src/constant.cpp
 )
 
 # Header files
 set(HEADERS
     include/draw.h
-    include/render.h
     include/utils.h
 )
-set(HEADERS1
-    include/draw.h
-    include/render.h
-    include/utils.h
-    include/constant.h
+# Header files
+set(HEADERS2
+    Code/include/draw.h
+    Code/include/utils.h
 )
+set(HEADERS2
+include/draw.h
+include/render.h
+include/utils.h
+include/constant.h
+)
+
 
 set(SRCS "src/Projects/square.cpp")
 # Executable
 # add_executable(${PROJECT_NAME} ${SRCS})
-add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+# add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+add_executable(${PROJECT_NAME} ${SOURCES1} ${HEADERS1})
 
 
 find_package(OpenGL REQUIRED)
