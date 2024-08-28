@@ -68,7 +68,7 @@ int main()
         float centerX = WINDOW_WIDTH / 4.0f;
         float centerY = WINDOW_HEIGHT * 3 / 4.0f;
         drawAxes(MAIN_GRAPH_CENTER_X, centerY, WINDOW_WIDTH / 2, 150);
-        drawCirclesLoop(centerX, centerY, RADIUS, RADIUS, NUMBERS_OF_CIRCLE, 5);
+        drawCirclesLoop(centerX = centerX, centerY, RADIUS, RADIUS, NUMBERS_OF_CIRCLE, 5);
 
         // Draw the Fourier series approximation of the square wave
         glColor3f(0.0f, 1.0f, 0.0f);
